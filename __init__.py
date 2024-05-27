@@ -1,2 +1,2 @@
 __version__ = "1.0.1"
-from .IR3 import process_substrate
+from .DNAzyme import process_substrate
