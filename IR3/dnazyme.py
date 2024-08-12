@@ -125,7 +125,7 @@ def format_output(result):
     formatted_output += f"(13nt) {substrate} substrate (13nt)\n"
     formatted_output += f"{' ' * 27}17,16,15,14,13,12,11\n"
     formatted_output += f"Relative-Activity: {activity}\n"
-    formatted_output += "To Ensure Activity, Enforce: G-C or A-T (enzyme-substrate) at the start of stem P2.\n"
+    formatted_output += "To Ensure Activity, Enforce: G-C or A-T (enzyme-substrate) at the end of stem P2.\n"
     formatted_output += f"\n"
 
     return formatted_output
