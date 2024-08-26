@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'IR3',
   packages = ['IR3'], 
-  version = '1.0.1',
+  version = '3.0.0',
   license='MIT',
   description = 'Finding the activity value and designing enzyme for input substrate',
   author = 'Xinxin Yu',
   author_email = 'xn255368@dal.ca',
   url = 'https://github.com/XinxinTree/IR3',
-  download_url = 'https://github.com/XinxinTree/IR3/archive/refs/tags/v_03.tar.gz',
+  download_url = 'https://github.com/XinxinTree/IR3/archive/refs/tags/v_05.tar.gz',
   keywords = ['IR3', 'dnazyme', 'substrate'],
   install_requires=[
           'pandas',
